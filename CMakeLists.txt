@@ -31,6 +31,7 @@ set(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -std=c++11")
 SET(CUDA_PROPAGATE_HOST_FLAGS OFF)
 
 LIST(APPEND CUDA_NCCC_FLAGS --compiler-options)
+LIST(APPEND CUDA_NVCC_FLAGS -gencode arch=compute_30,code=sm_30)
 LIST(APPEND CUDA_NVCC_FLAGS -gencode arch=compute_35,code=sm_35)
 LIST(APPEND CUDA_NVCC_FLAGS -gencode arch=compute_50,code=sm_50)
 LIST(APPEND CUDA_NVCC_FLAGS -gencode arch=compute_60,code=sm_60)
