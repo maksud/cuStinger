@@ -69,4 +69,4 @@ cuda_add_executable(cuMain
            )
 
 
-TARGET_LINK_LIBRARIES(cuMain custinger  /usr/local/cuda/lib64/libcudart.so)
+TARGET_LINK_LIBRARIES(cuMain custinger  /usr/local/cuda/lib/libcudart.dylib)
