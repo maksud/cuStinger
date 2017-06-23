@@ -2,6 +2,7 @@
 #include <numeric>
 #include <stdlib.h>
 #include <inttypes.h>
+#include <cmath>
 
 
 #include "memoryManager.hpp"
