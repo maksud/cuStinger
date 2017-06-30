@@ -121,3 +121,4 @@ cscope.out
 cscope.in.out
 cscope.po.out
 .tags_sorted_by_file
+/build/
